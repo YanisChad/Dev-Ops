@@ -5,3 +5,8 @@
 ```bash
  docker pull httpd
 ```
+
+2. Pour vérifier que je dispose bien de l'image en local j'utilise la commande suivante qui liste toutes les images installés localement
+```bash
+docker image list
+```
