@@ -69,3 +69,9 @@ docker run -p 80:80 --link db:db phpmyadmin/phpmyadmin
 ### Question 6
 
 a. Docker run est entierement basé en ligne de commande tandis que docker-compose lit les informations depuis un fichier .yaml, docker run ne peut lancer qu'une seule image en meme temps alors que docker compose peut en lancer plusieurs
+
+b. Voir fichier .yaml
+Utiliser la commande suivante pour lancer les conteneurs
+```bash
+docker-compose up-d
+```
