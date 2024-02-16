@@ -18,3 +18,16 @@ d. Je démarre le conteneur avec la commande suivant : -p est utilisé pour spé
 ```bash 
 docker run -p 80:80 -v C:\Users\yanis\Documents\YNOV\B3\DevOps\Docker-TP1\TP_DOCKER_1\html\:/usr/local/apache2/htdocs/ httpd
 ```
+
+e. Pour supprimer le conteneur il faut d'abord le stopper avec 
+```bash
+docker stop [CONTAINER_ID]
+```
+Puis pour le supprimer on utilise 
+```bash
+docker rm [CONTAINER_ID]
+```
+Pour connaitre l'id de son docker on utilise 
+```bash
+docker ps
+```
