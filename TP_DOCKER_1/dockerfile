@@ -1,3 +1,6 @@
-FROM httpd:latest   
+#Choose last version of httpd
+FROM httpd:latest
+#Copy index.html to the container
 COPY ./html/index.html /usr/local/apache2/htdocs/
+#Expose port 80
 EXPOSE 80

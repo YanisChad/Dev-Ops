@@ -45,7 +45,9 @@ docker build -t [nom_choisi] .
 ```
 puis
 ```bash
-docker run -d [nom]
+docker run -d -p 80:80 [nom]
 ```
+
+b. On dépalace juste le fichier index.html dans le dossier htdocs
 
 
