@@ -59,3 +59,9 @@ a. Utiliser les commandes
 docker pull mysql
 docker pull phpmyadmin/phpmyadmin
 ```
+
+b. Utiliser les commandes suivantes pour lancer mysql et phpmyadmin
+```bash
+docker run --name db -e MYSQL_ROOT_PASSWORD=admin -d mysql
+docker run -p 80:80 --link db:db phpmyadmin/phpmyadmin      
+```
