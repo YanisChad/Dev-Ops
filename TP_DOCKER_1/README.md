@@ -51,3 +51,11 @@ docker run -d -p 80:80 [nom]
 b. On dépalace juste le fichier index.html dans le dossier htdocs
 
 c. Le principal intérêt du dockerfile est sa simplicité, tous les éléments sont renseignés dedans, il ne reste qu'à build et a run, le dockerfile simplifie la tache. 
+
+### Question 5 
+
+a. Utiliser les commandes 
+```bash
+docker pull mysql
+docker pull phpmyadmin/phpmyadmin
+```
