@@ -27,7 +27,12 @@ Puis pour le supprimer on utilise
 ```bash
 docker rm [CONTAINER_ID]
 ```
-Pour connaitre l'id de son docker on utilise 
+Pour connaitre l'id de son docker on utilise  C:\Users\yanis\Documents\YNOV\B3\DevOps\Docker-TP1\TP_DOCKER_1\html\
 ```bash
 docker ps
+```
+
+f. Sans utiliser le -v, on utilise la commande cp
+```bash
+docker cp  C:\Users\yanis\Documents\YNOV\B3\DevOps\Docker-TP1\TP_DOCKER_1\html\index.html [CONTENEUR_ID]:/usr/local/apache2/htdocs
 ```
