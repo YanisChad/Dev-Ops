@@ -1,7 +1,7 @@
 
 # TP1 Docker
 
-### <u>Question 3</u>
+## Question 3
 a. J'utilise la commande suivante pour récupérer l'image sur le docker hub
 ```bash
  docker pull httpd
@@ -37,7 +37,7 @@ f. Sans utiliser le -v, on utilise la commande cp
 docker cp  C:\Users\yanis\Documents\YNOV\B3\DevOps\Docker-TP1\TP_DOCKER_1\html\index.html [CONTENEUR_ID]:/usr/local/apache2/htdocs
 ```
 
-### Question 4
+## Question 4
 
 a. Utiliser la commande suivante pour build le fichier 
 ```bash
@@ -52,7 +52,7 @@ b. On dépalace juste le fichier index.html dans le dossier htdocs
 
 c. Le principal intérêt du dockerfile est sa simplicité, tous les éléments sont renseignés dedans, il ne reste qu'à build et a run, le dockerfile simplifie la tache. 
 
-### Question 5 
+## Question 5 
 
 a. Utiliser les commandes 
 ```bash
@@ -66,7 +66,7 @@ docker run --name db -e MYSQL_ROOT_PASSWORD=admin -d mysql
 docker run -p 80:80 --link db:db phpmyadmin/phpmyadmin      
 ```
 
-### Question 6
+## Question 6
 
 a. Docker run est entierement basé en ligne de commande tandis que docker-compose lit les informations depuis un fichier .yaml, docker run ne peut lancer qu'une seule image en meme temps alors que docker compose peut en lancer plusieurs
 
