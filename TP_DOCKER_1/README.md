@@ -10,3 +10,5 @@
 ```bash
 docker image list
 ```
+
+3. Création d'un dossier html et d'un fichier index.html dedans
