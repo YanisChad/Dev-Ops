@@ -65,3 +65,7 @@ b. Utiliser les commandes suivantes pour lancer mysql et phpmyadmin
 docker run --name db -e MYSQL_ROOT_PASSWORD=admin -d mysql
 docker run -p 80:80 --link db:db phpmyadmin/phpmyadmin      
 ```
+
+### Question 6
+
+a. Docker run est entierement basé en ligne de commande tandis que docker-compose lit les informations depuis un fichier .yaml, docker run ne peut lancer qu'une seule image en meme temps alors que docker compose peut en lancer plusieurs
