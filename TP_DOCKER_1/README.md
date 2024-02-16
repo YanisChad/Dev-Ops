@@ -1,7 +1,7 @@
 
 # TP1 Docker
 
-### Question 3 
+<u>### Question 3 </u>
 a. J'utilise la commande suivante pour récupérer l'image sur le docker hub
 ```bash
  docker pull httpd
