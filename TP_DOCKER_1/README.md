@@ -75,3 +75,8 @@ Utiliser la commande suivante pour lancer les conteneurs
 ```bash
 docker-compose up-d
 ```
+
+## Authors
+
+- [@Yanis CHAD](https://github.com/YanisChad)
+
