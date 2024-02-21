@@ -20,3 +20,6 @@ Ensuite lancer les conteneurs avec ```docker compose up -d```
 
 ## Question 5
 Voir docker-compose.yml et question 4
+
+## Question 6
+Je crois que c'est bon mais pas sur 
