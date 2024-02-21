@@ -30,3 +30,16 @@ Modifier le fichier docker-compose (voir docker-compose)
 
 ## Question 8
 Pour isoler les deux conteneurs et les mettre dans un même réseau a part, il faut créer un network et les mettre les deux dans réseau crée. (voir docker-compose)
+
+## Question :
+# Q1 
+Si un des ports publié est déja utilisé, il sera impossible de déployer le conteneur, on aura une erreur
+# Q2
+L'option ```--production``` permet de n'installer que les dépendances de production ou ```--omit=dev```
+# Q2 bis
+Installer seulement lels dépendances de production permet d'installer seulement les dépendances nécéssaire en production ainsi de limiter les risques avec des dépendances avec de possibles failles de sécurité et de réduire le stockage et la ram utilisée
+# Q3
+Il existe plusieurs outils d'analyse de sécurité d'applications
+Aussi lors de l'application des dépendances, il est listé les vulnérabilités des dépendances, on peut aussi utiliser la commande ```npm audit``
+# Q4
+Le conteneur n'arrive pas a communiquer avec la base de donnée si je laisse localhost comme hostname car pour lui "localhost" est lui même, je dois donc renseigner le nom d'hote de ma base de donnée (ici mysql) pour qu'ils puissent communiquer
