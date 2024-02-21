@@ -17,3 +17,6 @@ docker run --name db -e MYSQL_ROOT_PASSWORD=admin -d mysql
 Il suffit de décommenter la partie qui permet d'utiliser mysql et de commenter celle qui utilise sqlite dans index.js et de renseigner les bon logs dans db.config.js.
 Puis utiliser la commande ```docker compose build```
 Ensuite lancer les conteneurs avec ```docker compose up -d```
+
+## Question 5
+Voir docker-compose.yml et question 4
