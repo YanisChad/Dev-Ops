@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    working-directory: TP_DOCKER_2/src
+    workingDirectory: TP_DOCKER_2/src
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js
