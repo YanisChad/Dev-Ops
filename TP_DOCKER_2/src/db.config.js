@@ -7,8 +7,8 @@
 // Uncomment this block to use mysql
 module.exports = {
     hostname: "mysql",
-    username: "root",
-    password: "admin",
+    username: process.env.DB_USERNAME || "root",
+    password: process.env.DB_PASSWORD || "admin",
     database: "mysql",
     port: 3306
 }

@@ -22,4 +22,8 @@ Ensuite lancer les conteneurs avec ```docker compose up -d```
 Voir docker-compose.yml et question 4
 
 ## Question 6
-Je crois que c'est bon mais pas sur 
+Je crois que c'est bon mais pas sur, en fait c'est bon
+
+## Question 7
+Créer un fichier .env et renseigner les valeurs dedans tels que le mot de passe et le nom d'utilisateur de la DB
+Modifier le fichier docker-compose (voir docker-compose)
