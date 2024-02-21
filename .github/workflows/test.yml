@@ -13,7 +13,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-      - run: cd TP_DOCKER_2
-      - run: npm install
-      - run: npm test
+      - run: cd TP_DOCKER_2 && npm install
+      - run: cd TP_DOCKER_2 && npm test
 
