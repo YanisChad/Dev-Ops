@@ -12,3 +12,6 @@ Pour lancer une image de base de donnée utiliser la commande
 ```bash
 docker run --name db -e MYSQL_ROOT_PASSWORD=admin -d mysql
 ```
+
+## Question 4 
+Il suffit de décommenter la partie qui permet d'utiliser mysql et de commenter celle qui utilise sqlite
