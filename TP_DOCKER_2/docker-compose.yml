@@ -9,6 +9,8 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD}
     expose:
       - ${DB_PORT}
+    networks:
+      - my_network
 
   node_app:
     build:
@@ -20,3 +22,9 @@ services:
       - db
     links:
       - db
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge

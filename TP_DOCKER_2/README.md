@@ -27,3 +27,6 @@ Je crois que c'est bon mais pas sur, en fait c'est bon
 ## Question 7
 Créer un fichier .env et renseigner les valeurs dedans tels que le mot de passe et le nom d'utilisateur de la DB
 Modifier le fichier docker-compose (voir docker-compose)
+
+## Question 8
+Pour isoler les deux conteneurs et les mettre dans un même réseau a part, il faut créer un network et les mettre les deux dans réseau crée. (voir docker-compose)
